@@ -167,7 +167,11 @@ nav ul li a:hover::after {
 
 .about-col-1 img {
     width: 100%;
-    border-radius: 15px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border: solid 4px #61b752; */
+    max-width: 500px;
+    height: 600px;
 }
 
 .about-col-2 {
