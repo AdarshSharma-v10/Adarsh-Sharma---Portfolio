@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh Sharma Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dca6c1e4f0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/Firefly .png" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Itsme.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+
+                <i class="fas fa-moon" id="theme-toggle" onclick="toggleTheme()"></i>
+
+
+            </nav>
+            <div class="header-container">
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Adarsh Sharma </span></h1>
+                    <p>JAVA FULL STACK DEVELOPER</p>
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="images/Adarsh Sharma-Resume.pdf" download class="btn">Download Resume</a>
+                </div>
+                <div class="header-image">
+                    <img src="images/boy.png" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/BoyStand.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <!-- <h2>About Me</h2> -->
+                    <p>Hi, my name is Adarsh Sharma
+                        <br>
+                        <br>
+
+                        I am a passionate and solution-oriented fresher with a strong foundation in programming,
+                        development, and computer science theory. I am committed to continuous learning and mastering
+                        new technologies.
+                        <br>
+                        <br>
+
+                        I am a recent B.Tech graduate in Information Technology Engineering,
+                        proficient in Java, HTML, CSS, JavaScript, Bootstrap, MySQL. I have hands-on experience in
+                        developing web applications and software solutions, with a keen eye for detail and a focus on
+                        <br>
+                        <br>
+
+                        I am dedicated to creating innovative, efficient, and user-friendly software solutions. My
+                        skills include implementing responsive designs, optimizing database performance, and
+                        contributing to dynamic projects.
+                        <br>
+                        <br>
+
+                        Eager to stay updated with emerging technologies, I am ready to contribute to impactful projects
+                        as part of a collaborative and innovative team in web and software development.
+                    </p>
+
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Java full Stack</span><br>Building web pages using java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li>
+                                <span>2024-current (Trainer)</span><br>During training at J Spider for Java full stack
+                                development.
+                            </li>
+                            <li>
+                                <span>2023 June-July (Vocational Training)</span><br>Internship at Oasis Infobyte for
+                                web development.
+                            </li>
+                            <li>
+                                <span>2022 July-August (Operational Intern)</span><br>Internship at Oasis Infobyte for
+                                web development.
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>Btech from Rungta College of Engineering and Technology (R1),
+                                Bhilai, Chhatisgarh</li>
+                            <li><span>2020</span><br>Intermidate from KPS, Sunder Nagar, Bhilai, Chhatisgarh</li>
+                            <li><span>2018</span><br>KPS, Sunder Nagar, Bhilai, Chhatisgarh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----services---- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        <b>Custom Website Development:</b> Tailored websites designed to meet your unique business
+                        needs.<br>
+                        <b>Responsive Design:</b> Mobile-friendly and user-centric designs for all devices.<br>
+                        <b>Front-End Development:</b> Interactive and visually appealing interfaces using HTML, CSS,
+                        JavaScript, and Bootstrap.<br>
+                        <b>Back-End Development:</b> Secure and efficient server-side solutions with MySQL
+                        integration.<br>
+                        <b>E-Commerce Development:</b> Robust online stores with seamless functionality and payment
+                        integration.<br>
+                        <b>Web Maintenance:</b> Regular updates and support to keep your site secure and functional.<br>
+                        <b>Performance Optimization:</b> Fast-loading websites for improved user experience.<br>
+                        <a href="#">Learn more</a>
+                    </p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Java Development</h2>
+                    <p>
+                        <b>Custom Application Development:</b> Design and development of robust, scalable, and secure
+                        Java-based applications.<br>
+                        <b>Web Application Development:</b> Building dynamic, interactive, and responsive web
+                        applications using Java frameworks like Spring and Hibernate.<br>
+                        <b>API Development and Integration:</b> Development of RESTful APIs and seamless integration
+                        with third-party systems.<br>
+                        <b>Database Management:</b> Efficient database design, optimization, and integration using SQL
+                        and NoSQL databases.<br>
+                        <b>Enterprise Solutions:</b> Creating enterprise-grade software with modular and maintainable
+                        architecture.<br>
+                        <b>Performance Optimization:</b> Ensuring high-performance and scalable applications with
+                        optimized code.<br>
+                        <b>Bug Fixing and Maintenance:</b> Providing ongoing support, debugging, and maintenance for
+                        Java applications.<br>
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque est eaque laboriosam possimus provident expedita nesciunt consequatur dignissimos odio voluptate, hic maxime, porro sequi architecto sint eligendi corrupti! Quam, odit.</p>
+                    <a href="#">learn more</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!--port folio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/Bed finder.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Hospital Bed Finder</h3>
+                        <p>.</p>
+                        <a href="https://github.com/AdarshSharma-v10"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="images/travels.png" alt="">
+                    <div class="layer">
+                        <h3>AI Image Generation using OpenAI API key </h3>
+                        <p>.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+                <div class="work">
+                    <img src="images/nature.png" alt="">
+                    <div class="layer">
+                        <h3>AI Image Generation using OpenAI API key </h3>
+                        <p>.</p>
+                        <a href="https://github.com/AdarshSharma-v10/AI-Image-Genneration"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Car.png" alt="">
+                    <div class="layer">
+                        <h3>Thread Clone</h3>
+                        <p>Mern Stack Project</p>
+                        <a href="https://github.com/AdarshSharma-v10"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hospital.png" alt="">
+                    <div class="layer">
+                        <h3>Hospital-Management-System</h3>
+                        <p></p>
+                        <a href="https://github.com/AdarshSharma-v10/Hospital-Management-System"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------contact------- -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="cub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> adarshsharma.r51@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>5555555</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/AdarshSharma-v10"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/adarshsharma5"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Adarsh Sharma-Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name " required>
+                        <input type="email" name="Email" placeholder="your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with Love <i class="fas fa-heart"></i> Adarsh Sharma</p>
+        </div>
+
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <!-- <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+    </form> -->
+
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyXbrphv69js0NYUgX1cYzLQCZyITN9vNJEARbfRnmZBvTQA89xvYp7HML4jN6-6hTm4Q/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const themeToggle = document.getElementById('theme-toggle');
+            body.classList.toggle('dark-mode');
+            body.classList.toggle('light-mode');
+
+            if (body.classList.contains('dark-mode')) {
+                themeToggle.classList.remove('fa-moon');
+                themeToggle.classList.add('fa-sun');
+            } else {
+                themeToggle.classList.remove('fa-sun');
+                themeToggle.classList.add('fa-moon');
+            }
+        }
+
+        // Set initial theme based on user preference or default to light mode
+        document.addEventListener('DOMContentLoaded', () => {
+            const body = document.body;
+            const themeToggle = document.getElementById('theme-toggle');
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+            if (prefersDarkScheme) {
+                body.classList.add('dark-mode');
+                themeToggle.classList.add('fa-sun');
+            } else {
+                body.classList.add('light-mode');
+                themeToggle.classList.add('fa-moon');
+            }
+        });
+    </script>
+</body>
+
+</html>
